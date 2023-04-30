@@ -1,0 +1,885 @@
+body {
+  color: #010009;
+  font-family: "Montserrat";
+  text-align: center;
+  margin: 0;
+}
+
+.kopka {
+  text-decoration: underline;
+}
+
+.modern {
+  background-color: coral;
+}
+/* w3 responsive image */
+
+/* w3 responsive image gallery end */
+
+/*responsive Header */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(54, 7, 242);
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: orange;
+  color: white;
+  padding-right: 4rem;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* responsive header ends */
+#nav1 {
+  background-color: white;
+}
+
+.aaa {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2617ef;
+}
+
+li {
+  float: right;
+}
+
+li:last-child {
+  border-right: none;
+}
+li:first-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+li a:hover:not(.active) {
+  background-color: #21cfff;
+  border-radius: 15px;
+}
+
+#logo {
+  width: 45;
+}
+
+h1 img {
+  width: 100%;
+}
+
+.aaa {
+  color: blue;
+}
+#about {
+  background-color: white;
+  color: black;
+  width: 70%;
+  margin: auto;
+  border-radius: 5%;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+li .aaa a:hover:not(.active) {
+  background-color: #76f0e2;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+/*Services */
+.services {
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  background-color: white;
+  padding: 15px;
+}
+.services h2 {
+  text-decoration: underline;
+}
+
+.services > p {
+  font-size: 1.4rem;
+  padding: 15px 60;
+}
+.sevices ul {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  list-style-type: circle;
+}
+
+.services li {
+  float: none;
+  background-color: white;
+  list-style-type: circle;
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 0 0 10px 50px;
+}
+
+.se > h2 {
+  color: rgb(67, 70, 238);
+}
+
+/*end Services*/
+/* Heading */
+
+.big-heading {
+  color: black;
+  text-align: center;
+  font-family: Montserrat;
+  padding-bottom: 3% 3% 2%;
+}
+
+.s-heading {
+  padding-top: 3%;
+}
+
+.mission {
+  background-color: rgb(244, 201, 148);
+  border-radius: 6px;
+  padding: 3% 0;
+  margin-bottom: 1%;
+}
+
+.prove {
+  font-size: 1.2rem;
+  color: #010009;
+}
+.cc {
+  padding: 0 0 1rem;
+}
+.construction {
+  background-color: #daf5ff;
+  border-radius: 7px;
+  padding: 1.5rem 0 0 0;
+  margin: 0 0 1rem 0;
+  float: left;
+  width: 47%;
+}
+
+/*.first {
+  margin-left: 7rem;
+}
+*/
+
+#features {
+  margin-top: 1.5rem;
+}
+.flag {
+  width: 1.9rem;
+  padding-right: 1%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.logoi {
+  width: 2rem;
+}
+.main {
+  background-color: rgb(246, 228, 237);
+  padding: 2% 2%;
+}
+
+.projects {
+  text-align: center;
+  color: rgb(10, 1, 1);
+  font-size: 2.5rem;
+  padding: 2rem 0;
+}
+
+.project-image {
+  margin: 0 1.1rem 0 1rem;
+  padding: 1rem 0 1rem;
+  width: 100%;
+}
+
+.pp {
+  text-align: left;
+  font-size: 1.2rem;
+}
+.row {
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+.refresh {
+  background-color: #daf5ff;
+  border-radius: 15px;
+
+  font-size: 3.3rem;
+  margin: 1.5rem 0 0;
+  padding: 1.5rem 35rem 1rem;
+}
+
+.refresh h1 {
+  width: 50%;
+  margin: auto;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.sec-img {
+  padding-bottom: 2%;
+}
+.title-image {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.white-section {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 2.5rem 3rem 1.5rem;
+}
+
+/*Testimonial */
+
+/* #testimonials {
+  background-color: #ef8172;
+}
+*/
+.carousel {
+  width: 80%;
+  margin: auto;
+
+  text-align: center;
+}
+.testimonial-text {
+  font-size: 2.2rem;
+  line-height: 1.3;
+  padding: 4% 4% 2%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/*Testimonials end */
+
+/*Galery*/
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/*Galery End*/
+
+/*Project Blocks */
+
+/*.construction {
+  float: left;
+  width: 48%;
+  margin-right: 2%;
+} */
+/* .logo {
+  padding: 0 20% 0 0;
+}
+/* form info */
+
+.info {
+  margin-left: 2%;
+}
+form h4 {
+  text-align: left;
+}
+
+.description {
+  font-size: 1.5rem;
+
+  text-decoration: underline;
+}
+
+.adresi > p {
+  font-size: 1.3rem;
+}
+
+.contact {
+  background-color: #b4e8f0;
+  border-radius: 15px;
+  margin: 2.5rem 0;
+  padding: 1.5rem;
+
+  /* width: 50%; */
+}
+
+input[type="text"],
+select {
+  width: 60%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  box-sizing: border-box;
+  text-align: center;
+}
+
+input[type="submit"] {
+  width: 20%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #099710;
+}
+
+.info {
+  border-radius: 15px;
+  background-color: #f5b7b7;
+  padding: 20px;
+  /* width: 50%; */
+}
+
+input:focus {
+  background-color: lightblue;
+}
+
+.locations {
+  float: left;
+  width: 48%;
+}
+
+.map {
+  margin-left: 0.5rem;
+}
+
+.mailto {
+  float: left;
+  width: 48%;
+}
+/* .specific {
+  width: 80%;
+} */
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+/* Footer */
+.social-icon {
+  margin: 20px 10px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 30px 0 20px;
+}
+
+#footer {
+  padding-top: 10px;
+}
+
+#myBtn1 {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn1:hover {
+  background-color: #555;
+}
+
+.btn {
+  margin: 2rem 0 0 0;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.house {
+  margin: 1.5rem 0;
+}
+/*
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+}
+ */
+/*contact section */
+.contact {
+  margin-left: 2%;
+}
+
+/* Contact Media */
+
+@media screen and (max-width: 600px) {
+  .contact {
+    font-size: 1.7rem;
+  }
+  /*Testimonials*/
+  .testimonial-text {
+    font-size: 1.2rem;
+
+    padding: 4%;
+  }
+  .carousel {
+    width: 100%;
+    margin: auto;
+
+    text-align: center;
+  }
+  /*Testimonials*/
+
+  /*Galery*/
+  .ga {
+    width: 100%;
+  }
+  /* Galery end */
+
+  /*Services */
+  .services {
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    background-color: white;
+    padding: 15px;
+  }
+
+  .services p {
+    font-size: 1.4rem;
+    padding: 15px 0;
+  }
+  .sevices ul {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    list-style-type: circle;
+  }
+
+  .services li {
+    float: none;
+    background-color: white;
+    list-style-type: circle;
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 0px 0 5px 0px;
+  }
+
+  /*end Services*/
+  .locations {
+    float: none;
+    width: 100%;
+
+    padding: 0 2%;
+  }
+
+  .li a {
+    font-size: 1.3rem;
+  }
+  .map {
+    margin-left: 0.5rem;
+  }
+
+  .mailto {
+    float: none;
+    width: 100%;
+
+    padding: 0 2%;
+  }
+  iframe {
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    width: 40%;
+  }
+  .topnav a {
+    padding: 8px 10px;
+  }
+  input[type="text"],
+  select {
+    width: 90%;
+  }
+
+  /* heading */
+  .big-heading {
+    font-size: 1.3rem;
+    padding-top: 2%;
+    margin-bottom: 0;
+  }
+
+  .refresh {
+    font-size: 1rem;
+  }
+  .mission .refresh {
+    background-color: #daf5ff;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    margin: 1.5rem 0 0;
+    padding: 1.5rem 2rem 1rem;
+  }
+  #about {
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 1.5rem;
+    text-align: left;
+    font-size: 1.3rem;
+  }
+  .refreshready {
+    background-color: #daf5ff;
+    font-size: 1.2rem;
+    margin: 1.7rem 0 0;
+    padding: 1rem;
+  }
+  /*Projects */
+  .construction {
+    background-color: #daf5ff;
+    border-radius: 15px;
+    padding: 1.5rem 0 0 0;
+    margin: 0 0 1rem 0;
+    width: 100%;
+  }
+
+  .proba {
+    width: 550px;
+  }
+  .para {
+    width: 100%;
+  }
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+  /*Input at medi screen */
+  input[type="text"],
+  select {
+    width: 60%;
+    padding: 5px 5px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+    box-sizing: border-box;
+    text-align: center;
+  }
+}
+
+/* Grid System */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f3f3;
+  font-family: "Popins", sans-serif;
+}
+
+.menu {
+  padding: 0 10px 30px 10 px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 20px 40px;
+}
+.heading {
+  background-color: #cb202d;
+  color: #ffffff;
+  margin-bottom: 30px;
+  padding: 30px 0;
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+.heading > h1 {
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+
+.heading > h3 {
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 5px;
+}
+
+.food-items {
+  background-color: #cae8f1;
+  display: grid;
+  position: relative;
+  grid-template-rows: auto 1fr;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding-bottom: 3%;
+}
+
+.food-items img {
+  position: relative;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  padding-bottom: 16px;
+}
+
+h1 {
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+.details {
+  padding: 25px 10 px;
+  display: grid;
+  grid-template-rows: auto 1 fr 50px;
+  grid-row-gap: 15px;
+}
+
+.details-sub {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.details-sub > h5 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.price {
+  text-align: right;
+}
+
+.details > p {
+  color: #6f6f6f;
+  font-size: 20px;
+  line-height: 5px;
+  font-weight: 400;
+  align-self: stretch;
+  text-align: center;
+}
+.details > button {
+  background-color: #cb202d;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 180px;
+  padding: 1px;
+
+  margin: auto;
+}
+
+/*added later */
+
+.food-items > h2 {
+  text-align: center;
+  background-color: rgb(248, 209, 101);
+  border-radius: 7px;
+  padding: 5px 0;
+}
+.food-items > h4 {
+  text-align: center;
+  background-color: #99e8de;
+  padding: 5px 0;
+}

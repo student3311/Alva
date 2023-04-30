@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/41049137af.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+     
+     <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+
+     
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/favicon.ico">
+   
+
+    <title>AlvaConstruction</title>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn1" title="Go to top"><i class="fa-solid fa-arrow-up-long"></i></button>
+    <div>
+      <ul id="nav1">
+        <li>
+          <a class="aaa" href="contact.html"
+          ><img class="flag" src="images/uk-flag.jpg" />En
+        </a>
+        </li>
+        <li>
+          <a class="aaa" href="contacttr.html"
+            ><img class="flag" src="images/tur-flag.jpg" />Tur</a
+          >
+        </li>
+        <li>
+          <a class="aaa" href="contactbg.html"
+            ><img class="flag" src="images/bg-flag.jpg" />Bg</a
+          >
+        
+      </ul>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+       
+      
+        <a class="aaa logo" style="float: left;"  href="index.html">Алва Будівництво <img class="logoi" src="images/flc_design20230327130317.jpg"> </a>
+       
+       <a class="active" href="#contact"><i class="fa-solid fa-phone"></i> 0882968110</a>
+       <a href="contactukr.html">Контакти</a>
+       <a href="galeri.html">Галерея</a></li>
+        <a href="serviceukr.html">Послуги</a>
+       <a href="ukr.html#progect">Проекти</a>
+       <a href="ukr.html#us">Про нас</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    
+      <div class="row">
+			<div class="col-lg-6">
+				<div class="adresses">
+					<h2 class="contact">Надайте контактні дані та коротко опишіть Ваш проект.</h2>
+				    <div class="info">
+						<form action="mailto:ivanki35@hotmail.com" method="post" enctype="text/plain" id="alva">
+							<p><label for="fname">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspІм’я:&nbsp&nbsp&nbsp</label>
+								<input type="text" id="fname" name="Adı/Name" placeholder="Ім’я.." required></p>
+					
+                <p><label for="lname">Призвіще:</label>
+								<input type="text" id="lname" name="Soy isim/Last Name" placeholder="Призвіще.." required></p>
+							<h4>Адреса проекту:</h4>
+							<p><label for="city">&nbsp&nbsp&nbsp&nbspМісто:&nbsp&nbsp&nbsp </label>
+								<input type="text" id="city" name="Şehir/City" placeholder="Місто.." required></p>
+							<p><label for="province">&nbspОбласть:&nbsp</label>
+							
+								<input type="text" id="province" name="Vilayet" placeholder="Область.."></p>
+							
+							<p class="specific"><label for="postalcode">Пошт код:</label>
+								<input type="text" id="postal" name="Posta Kodu" placeholder="Поштовий код.."></p>
+							
+							<p class="specific"><label for="phone"> Tелефон:&nbsp</label>
+								<input type="text" id="phone" name="" placeholder=" Номер телефону.." required></p>
+							
+							<p class="specific"><label for="email">Ел пошта:</label>
+								<input type="text" id="email" name="E-mail." placeholder="Електронна пошта.." required></p>
+							<p><label for="country">&nbsp&nbsp Країна:&nbsp&nbsp  </label>
+								<select id="country" name="UkraynaWebsite/Ülke/Country" placeholder="Країна">
+									<option value="Bulgaria">Болгарія</option>
+									<option value="Turkey">Туреччина</option>
+                  <option value="Ukraine">Україна</option>
+									
+								</select></p>
+							<p class="description">Коротко опишіть Ваш проект</p>
+							<textarea rows="10" cols="30"  form="alva" name="Proje Açıklaması(Project Description)" required  placeholder="Ваш проект" spellcheck="true
+              "></textarea>
+			
+						
+							<input type="submit" value="Надіслати">
+						</form>
+					</div>
+				 </div>
+        </div>
+        <div class="col-lg-6">
+			      <div>
+            <h2 class="contact map"> Ви можете знайти нас тут</h2>
+          </div>
+          <div><h3>Болгарія</h3>
+          <a href="https://www.google.com/maps/dir//%D0%B1%D1%83%D0%BB.+%E2%80%9E%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE+%D0%91%D0%BE%D1%82%D0%B5%D0%B2%E2%80%9C+107+6609+%D0%BA%D0%B2.+%D0%92%D1%8A%D0%B7%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D1%86%D0%B8,+%D0%9A%D1%8A%D1%80%D0%B4%D0%B6%D0%B0%D0%BB%D0%B8/@41.6422615,25.3526956,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14ad726b64a4690d:0x88452e2cc87dba9!2m2!1d25.3526956!2d41.6422615 " target="blank"> Натисніть тут</a></div>
+          <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.6238429546756!2d25.350501550937665!3d41.642261479139634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ad726b64a4690d%3A0x88452e2cc87dba9!2z0LHRg9C7LiDigJ7QpdGA0LjRgdGC0L4g0JHQvtGC0LXQsuKAnCAxMDcsIDY2MDkg0LrQsi4g0JLRitC30YDQvtC20LTQtdC90YbQuCwg0JrRitGA0LTQttCw0LvQuA!5e0!3m2!1sbg!2sbg!4v1680382996742!5m2!1sbg!2sbg" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+          <h3>В Туреччині</h3>
+          <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34074.67615762864!2d29.030060271170676!3d40.98576544196282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9164cd77955%3A0x6c6bec2fecc932d5!2sMurat%20Apt.!5e0!3m2!1str!2sbg!4v1680387877025!5m2!1str!2sbg" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        </div>
+			</div>
+      <hr>
+      <div class="row">
+        <div class="col-lg-6 adresi">
+         <h2>Алва Строителство</h2>
+         <h2>България</h2>
+         <p>Джемал Алгюл</p>
+         <p>6600 Град Кърджали</p>
+         <p>Булевард Христо Ботев 107 Ап.6 </p>
+         <p>телефон 359882968110</p>
+  
+        </div>
+        <div class="col-lg-6 adresi">
+          <h2>Alva Gayrimenkul</h2>
+          <h2>Turkey</h2>
+          <p>Istanbul, Pendik</p>
+          <p>Fatih Mah. Raşit Sk Murat Apt</p>
+          <p>Blok No 7  İç Kapı No 2</p>
+          <p>telefon 905072433293</p>
+        </div>
+      </div>
+<div> <a class="btn house" href="ukr.html">Дім</a></div>
+
+<footer id="footer">
+  <div class="bottom-container">
+    
+    <a class="footer-link" href=" https://www.facebook.com/profile.php?id=100077204850372"><i class="social-icon fab fa-facebook-f"></i>
+
+    <a class="footer-link" ><i class="social-icon fab fa-twitter"></i>Twitter</a>
+    <i class="social-icon fab fa-instagram"></i>
+    <a class="footer-link" href="contactukr.html"><i class="social-icon fas fa-envelope"></i></a>
+					<p>© Copyright 2023 Alva Construction</p>
+				</div>
+			</footer>
+			<script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn1");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 1120 || document.documentElement.scrollTop > 1120) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+		</body>
+	</html>
